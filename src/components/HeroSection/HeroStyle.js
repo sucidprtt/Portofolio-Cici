@@ -97,9 +97,9 @@ export const Img = styled.img`
   width: 100%;
   height: 100%;
   max-width: 400px;
-  max-height: 400px;
+  max-height: 800px;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border: 0px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -147,6 +147,11 @@ export const TextLoop = styled.div`
 
 export const Span = styled.span`
   color: ${({ theme }) => theme.primary};
+  cursor: pointer;
+`;
+
+export const Spans = styled.span`
+  color: #e600ff;
   cursor: pointer;
 `;
 
